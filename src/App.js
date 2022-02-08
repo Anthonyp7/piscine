@@ -45,7 +45,7 @@ function App() {
   };
 
   const getActiveNote = () => {
-    return notes.find(({ id }) => id === activeNote);a
+    return notes.find(({ id }) => id === activeNote);
   };
 
   return (
